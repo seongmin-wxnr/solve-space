@@ -1,14 +1,14 @@
 #include <iostream>
 #include <vector>
 
-// ¿ÏÀü¼ö ±¸ºĞ ¹®Á¦
+// ì™„ì „ìˆ˜ êµ¬ë¶„ ë¬¸ì œ
 
 int main() {
-	std::ios_base::sync_with_stdio(false); // Ç¥ÁØ ÀÔÃâ·Â µ¿±âÈ­ ¹æÁö
-	std::cin.tie(NULL); // ÀÔÃâ·Â ¹­À½ ÇØÁ¦
+	std::ios_base::sync_with_stdio(false); // í‘œì¤€ ì…ì¶œë ¥ ë™ê¸°í™” ë°©ì§€
+	std::cin.tie(NULL); // ì…ì¶œë ¥ ë¬¶ìŒ í•´ì œ
 
 	std::vector<int> dw_xfactor;
-	std::vector<int> size_counter; // ±âº» »çÀÌÁî º§·ù
+	std::vector<int> size_counter; // ê¸°ë³¸ ì‚¬ì´ì¦ˆ ë²¨ë¥˜
 	int absolute_value, x;
 	int dfx = 0;
 	while (true) {
